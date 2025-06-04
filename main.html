@@ -9,10 +9,21 @@
 		.middle{
 			border:1px solid rgb(0,0,0);
 			border-spacing:1px;
+			width:100%
+			
+			
 			
 		}
-		#t11, #t12,#t13,#t21{
-			padding:1px
+
+		
+		#t12{
+			text-align:center
+		}
+		#t13{
+			text-align:right
+		}
+		#t21{
+			padding:1px;
 		}
 	</style>
 </head>
@@ -20,24 +31,24 @@
 <body>
 	<h1 style="text-align:center">HTML Assignment #3</h1>
 	<table border=1px class="middle" id="table-1">
-		<tr id=t11>
-			<td>left</td>
-			<td>left</td>
-			<td>left</td>
+		<tr >
+			<td id=t11>left</td>
+			<td id=t12>center</td>
+			<td id=t13>right</td>
 		</tr>
-		<tr class="center" id="t12">
-			<td>center</td>
-			<td>center</td>
-			<td>center</td>
+		<tr class="center" >
+			<td id=t11>left</td>
+			<td id=t12>center</td>
+			<td id=t13>right</td>
 		</tr>
-		<tr class="right" id="t13">
-			<td>right</td>
-			<td>right</td>
-			<td>right</td>
+		<tr class="right">
+			<td id=t11>left</td>
+			<td id=t12>center</td>
+			<td id=t13>right</td>
 		</tr>
 	</table>
-	<table  border=1px class="middle" id="table-2">
-		<tr id="t21">
+	<table  border=1 class="middle" id="table-2" style="width=100px; height:100px">
+		<tr id="t21" >
 			<td colspan=6></td>
 
 
